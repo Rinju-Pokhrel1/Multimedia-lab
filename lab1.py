@@ -3,7 +3,7 @@ import numpy as np
 # Input image file from user
 image_path = input("Enter the path of the image: ")
 # Read the image in grayscale
-gray_image = cv.imread(image_path, cv.IMREAD_GRAYSCALE)
+gray_image =cv.imread(image_path, cv.IMREAD_GRAYSCALE)
 # Read the image in RGB
 rgb_image = cv.imread(image_path, cv.IMREAD_COLOR)
 # Convert BGR to RGB
